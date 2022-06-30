@@ -129,19 +129,42 @@ footer {
   color: white;
   background-color: #0078af;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 748px) {
   .parent-main main {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+  }
+  parent-aside {
+    text-align: center;
   }
   aside {
     width: 90%;
+    margin: 30px auto;
   }
   header {
     width: 100%;
+    display: inline;
   }
   body {
     display: flex;
     flex-direction: column;
+  }
+  article img {
+    width: 100%;
+  }
+  article {
+    padding: 5px;
+  }
+  article p {
+    font-size: 15px;
+  }
+  nav {
+    z-index: 2;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #0078af;
   }
 }
