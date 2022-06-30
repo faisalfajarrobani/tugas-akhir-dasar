@@ -159,9 +159,9 @@ footer {
     padding: 5px;
   }
   article p {
-    font-size: 15px;
     font-family: arial;
-    font-weight:10;
+    font-weight: 200;
+    font-size: 16px;
   }
   nav {
     z-index: 2;
