@@ -77,6 +77,7 @@ article p {
   line-height: 2rem;
   font-weight: 200;
   font-size: 16px;
+  font-family: arial;
 }
 aside {
   margin: 90px 0px 40px 40px;
@@ -159,6 +160,7 @@ footer {
   }
   article p {
     font-size: 15px;
+    font-family: arial;
   }
   nav {
     z-index: 2;
