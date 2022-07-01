@@ -4,15 +4,18 @@
   font-family: sans-serif, Arial;
   box-sizing: border-box;
 }
+body {
+  background-color: #06283d;
+}
 header {
   display: inline;
   width: 100%;
 }
 .jumbotron {
-  background-color: #005e8a;
+  background-color: #06283d;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   width: 100%;
   font-size: 20px;
 }
@@ -20,12 +23,13 @@ header {
   margin-top: 1rem;
 }
 nav {
+  margin: 0 auto -30px auto;
   z-index: 2;
   width: 100%;
   position: sticky;
-  top: 0;
-  background-color: #0078af;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.322);
+  top: 0px;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.322);
 }
 nav ul {
   padding: 20px;
@@ -39,23 +43,24 @@ nav li {
 nav a {
   font-size: 18px;
   font-weight: bold;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .parent-main {
-  background-color: #9cb4cc;
+  background-color: #06283d;
   justify-content: center;
   display: inline-flex;
   width: 100%;
-  padding: 0 60px;
+  padding: 0 40px;
 }
 .parent-main main {
+  border-radius: 20px 20px 10px 10px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: white;
   width: 100%;
-  padding: 0 50px;
+  padding: 0 40px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   padding-bottom: 20px;
 }
@@ -72,7 +77,7 @@ article h1 {
 }
 article img {
   margin: 10px 0;
-  width: 700px;
+  width: 750px;
   border-radius: 5px;
 }
 article p {
@@ -80,7 +85,7 @@ article p {
   line-height: 2rem;
   font-weight: 200;
   font-size: 16px;
-  width: 700px;
+  width: 750px;
 }
 aside {
   margin: 90px 0px 40px 40px;
@@ -131,7 +136,7 @@ footer {
   text-align: center;
   padding: 10px;
   color: white;
-  background-color: #0078af;
+  background-color: #06283d;
 }
 @media screen and (max-width: 900px) {
   .parent-main {
@@ -163,13 +168,17 @@ footer {
     padding: 20px 5px 5px 5px;
   }
   article p {
-    font-size: 13px;
+    font-size: 14px;
     width: 100%;
-    font-weight: 330;
+    font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
   }
+
   nav a {
     font-size: 15px;
+  }
+  nav ul {
+    padding: 15px;
   }
   nav li {
     margin: 5px;
