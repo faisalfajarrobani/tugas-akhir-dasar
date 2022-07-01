@@ -152,13 +152,13 @@ footer {
   background-color: #06283d;
 }
 .reveal {
-  transform: translateY(80px);
-  opacity: 0;
+  transform: translateY(0px);
+  opacity: 1;
   transition: 0.5s;
 }
 .reveal.active {
-  transform: translateY(0px);
-  opacity: 1;
+  transform: translateY(10px);
+  opacity: 0;
 }
 @media screen and (max-width: 900px) {
   .parent-main {
@@ -182,7 +182,6 @@ footer {
     width: 100%;
     display: inline;
   }
-
   article img {
     width: 100%;
   }
@@ -196,7 +195,7 @@ footer {
     font-family: 'Times New Roman', Times, serif;
   }
   nav a {
-    font-size: 16px;
+    font-size: 15px;
   }
   nav ul {
     padding: 18px;
@@ -204,4 +203,4 @@ footer {
   nav li {
     margin: 5px;
   }
- 
+}
