@@ -163,7 +163,7 @@ footer {
 @media screen and (max-width: 900px) {
   .parent-main {
     width: 100%;
-    padding: 0 2%;
+    padding: 0 3%;
   }
   .parent-main main {
     display: flex;
