@@ -195,15 +195,6 @@ footer {
     font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
   }
-  .reveal {
-    transform: translateY(80px);
-    transition: 0.3s;
-    opacity: 0;
-  }
-  .reveal.active {
-    transform: translateY(0px);
-    opacity: 1;
-  }
   nav a {
     font-size: 16px;
   }
